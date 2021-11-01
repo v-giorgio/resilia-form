@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Kurenaido&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Archivo", sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+header {
+  display: flex;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+header img:hover {
+  transition-duration: 0.4s;
+  width: 170px;
+  cursor: pointer;
+}
+header img:not(:hover) {
+  transition-duration: 0.4s;
+}
+
+main {
+  height: 800px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-info {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin: 120px;
+}
+
+.main-titulo {
+  margin-bottom: 70px;
+  font-size: 65px;
+  letter-spacing: 2px;
+  color: #ffd000;
+  font-weight: 650;
+}
+
+.main-text {
+  letter-spacing: 2px;
+}
+
+.main-text p {
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.main-form {
+  display: flex;
+  width: 50%;
+  margin: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 40px 0;
+  box-shadow: 0 0 0.5rem #000;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-title {
+  text-align: center;
+  letter-spacing: 3px;
+  color: #ffd000;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+form label {
+  margin: 15px 5px 0 2px;
+}
+
+form input {
+  margin: 5px 0;
+  width: 400px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+  border-bottom: 2px solid #ffd000;
+  color: rgb(173, 173, 173);
+  font-size: 18px;
+}
+
+form input::placeholder {
+  font-size: 16px;
+  color: rgb(173, 173, 173);
+}
+
+form input:hover,
+form input:focus {
+  transition-duration: 0.5s;
+  border: none;
+  box-shadow: 0 0 0.4rem #ffd000;
+}
+
+form input:focus {
+  color: #000;
+}
+
+form input:not(:hover),
+form input:not(:focus) {
+  transition-duration: 0.5s;
+}
+
+.main-button {
+  margin: 30px 0;
+  background: #ffd000;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.main-button:hover {
+  transition-duration: 0.4s;
+  background-color: #000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.main-button:not(hover) {
+  transition-duration: 0.4s;
+}
+
+.gmail {
+  background: #ffffff;
+  border: 1px solid #d93025;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  color: #d93025;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.gmail:hover {
+  transition-duration: 0.4s;
+  color: #ffffff;
+  background: #d93025;
+  cursor: pointer;
+}
+.gmail:not(hover) {
+  transition-duration: 0.4s;
+}
